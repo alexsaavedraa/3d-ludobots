@@ -1,7 +1,18 @@
-# 3d-ludobots
-generates shambling almagamations using this code. run using snakes.bat
+# 3d-ludobots, NOW EVOLVING!
+
+
+generates shambling almagamations using this code. run using snakes.bat evolve using search.bat
 
 THIS IS BASED OFF OF R/LUDOBOTS. LARGE PORTIONS OF THIS CODEBASE ARE DIRECTLY TAKEN FROM THE SUBREDDIT. 
+
+This shows the fitness plotted against the generation (x axis)
+![image](https://user-images.githubusercontent.com/114758213/221760224-70254ca9-540f-41dc-ab60-a7c50e5db25f.png)
+some bots generate like this!
+![image](https://user-images.githubusercontent.com/114758213/221760330-bce9ae00-5bfe-4613-a210-1bd972720861.png)
+
+Some generate like this!
+https://youtu.be/HjJ8a5dIlug
+
 
 
 Here we generate a 3d ludobot and corresponding brain. The pictured diagram shows the first steps of generating, with green being a sensor and blue being a normal cube:
