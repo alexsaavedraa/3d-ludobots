@@ -23,4 +23,5 @@ Each next step chooses a face from all available faces and attatches a block to 
 ![image](https://user-images.githubusercontent.com/114758213/220530775-6d9b4711-5f5b-4a44-b2b9-02e007d0d972.png)
 This image shows how the brain is created. red circles are sensor neurons, dark red lines are motor neurons, and pink/purple lines are synapses. 
 
+![image](https://user-images.githubusercontent.com/114758213/221763730-f0a06874-6052-4841-bd0a-7e536efe24fe.png)
 
