@@ -1,4 +1,9 @@
 import os
+import os
+import matplotlib.pyplot as plt
+import random
+import time
+times =  time.localtime()
 
 
 
@@ -11,8 +16,18 @@ for root, dirs, files in os.walk(folder_path):
                os.remove(file_path)
 
 
-for i in range(6):
-     os.system("python snakegen.py " + str(i))
+
+     
+from parallelHillCilmber import PARALLEL_HILL_CLIMBER
+evolutions = []
+for i in range(5):
+    
+    phc = PARALLEL_HILL_CLIMBER() 
+    phc.Evolve()
+
+    phc.save_best(times)
+    evolutions.append(phc.bestOfGens)
+
 
 
 for root, dirs, files in os.walk(folder_path):
