@@ -1,4 +1,4 @@
-from solution import SOLUTION
+from snakegeneration import RANDOM_GEN
 import constants as c
 import copy
 import os
@@ -12,7 +12,7 @@ class PARALLEL_HILL_CLIMBER:
           self.parents = {}
           
           for i in range(c.population):
-               self.parents[i] = SOLUTION(self.nextAvailableID)
+               self.parents[i] = RANDOM_GEN(self.nextAvailableID)
                self.nextAvailableID += 1
          
 
@@ -63,7 +63,7 @@ class PARALLEL_HILL_CLIMBER:
      
      def Evaluate(self, solutions):
           for p in range(c.population):
-               solutions[p].Start_Simulation("DIRECT") 
+               solutions[p].Generate_And_Run() 
           for p in range(c.population):
                solutions[p].Wait_For_Simulation_To_End()
      

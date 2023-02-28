@@ -1,0 +1,1855 @@
+
+C:\Users\Alex\Downloads\snakes>python main.py 
+[3, 4, 5, 0]
+the id is 
+ 0
+
+ the speeds and feeds are (0, 1, 'x', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, 'z', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, '-y', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, '-x', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+the name is 'Part0_Part1
+
+
+ the current block is 1
+ the sides are [0.31, 0.51, 0.35] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 2, '-y', 'y', -1, 0)
+ a snake accepted 
+
+the name is 'Part0_Part2
+
+
+ the current block is 2
+ the sides are [0.79, 0.37, 0.51] 
+ the orientation is 1 0 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 3, '-x', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 3, '-x', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 3, '-x', '-y', 0, 2)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 3, '-z', 'y', -1, 0)
+ a snake accepted 
+
+the name is 'Part0_Part3
+
+
+ the current block is 3
+ the sides are [0.82, 0.57, 0.84] 
+ the orientation is 0 1 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 4, 'x', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 4, 'x', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 4, 'x', '-y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 4, 'x', '-z', 0, 2)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 4, '-z', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 4, '-z', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 4, '-z', '-y', 0, 2)
+ a snake accepted 
+
+the name is 'Part2_Part4
+
+
+ the current block is 4
+ the sides are [0.42, 0.88, 0.6] 
+ the orientation is 1 0 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 5, '-x', 'y', -1, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 5, '-x', 'y', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 5, '-x', '-y', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 5, '-x', '-z', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 5, '-x', '-z', 2, 1)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 5, '-x', 'y', -1, 0)
+ a snake accepted 
+
+the name is 'Part0_Part5
+
+
+ the current block is 5
+ the sides are [0.67, 0.8, 0.49] 
+ the orientation is 0 1 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -x
+
+
+ the speeds and feeds are (0, 6, '-z', 'y', -1, 0)
+ a snake accepted 
+
+the name is 'Part0_Part6
+
+
+ the current block is 6
+ the sides are [0.93, 0.73, 0.25] 
+ the orientation is 0 1 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 7, 'z', 'y', -1, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 7, 'z', 'y', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 7, 'z', '-y', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 7, 'z', '-z', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 7, 'z', '-z', 2, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 7, 'z', '-x', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 7, 'z', '-z', 0, 5)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 7, 'x', 'y', -1, 0)
+ a snake accepted 
+
+the name is 'Part0_Part7
+
+
+ the current block is 7
+ the sides are [0.58, 0.37, 0.92] 
+ the orientation is 0 1 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is x
+
+
+ the speeds and feeds are (0, 8, '-z', 'y', -1, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 8, '-z', 'y', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 8, '-z', '-y', 0, 5)
+ a snake accepted 
+
+the name is 'Part5_Part8
+
+
+ the current block is 8
+ the sides are [0.42, 0.3, 0.43] 
+ the orientation is 0 0 1
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 9, 'z', 'y', -1, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 9, 'z', 'y', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 9, 'z', '-y', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 9, 'z', '-z', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 9, 'z', '-z', 2, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 9, 'z', '-x', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 9, 'z', '-z', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 9, 'z', 'x', 0, 5)
+ a snake accepted 
+
+the name is 'Part5_Part9
+
+
+ the current block is 9
+ the sides are [0.79, 0.82, 0.33] 
+ the orientation is 1 0 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is z
+
+
+ the speeds and feeds are (0, 10, '-z', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 10, '-z', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 10, '-z', '-y', 0, 2)
+ a snake accepted 
+
+the name is 'Part2_Part10
+
+
+ the current block is 10
+ the sides are [0.44, 0.91, 0.64] 
+ the orientation is 0 0 1
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 11, '-y', 'y', -1, 7)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 11, '-y', 'y', 0, 7)
+ a snake accepted 
+
+the name is 'Part7_Part11
+
+
+ the current block is 11
+ the sides are [0.95, 0.9, 0.83] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 12, 'z', 'y', -1, 11)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 12, 'z', 'y', 0, 11)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 12, 'z', '-y', 0, 11)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 12, 'z', '-z', 0, 11)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 12, 'z', '-z', 2, 11)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 12, 'z', '-x', 0, 11)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 12, 'z', '-z', 0, 11)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 12, 'z', 'x', 0, 11)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 12, 'z', '-z', 5, 11)
+ a snake accepted 
+
+the name is 'Part11_Part12
+
+
+ the current block is 12
+ the sides are [0.65, 0.6, 0.32] 
+ the orientation is 0 1 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is z
+
+the name is 'Part4_Part13
+
+
+ the current block is 13
+ the sides are [0.33, 0.77, 0.98] 
+ the orientation is 1 0 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 14, '-z', 'y', -1, 13)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 14, '-z', 'y', 0, 13)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 14, '-z', '-y', 0, 13)
+ a snake accepted 
+
+the name is 'Part13_Part14
+
+
+ the current block is 14
+ the sides are [0.77, 0.68, 0.81] 
+ the orientation is 1 0 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 15, 'z', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 15, 'z', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 15, 'z', '-y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 15, 'z', '-z', 0, 2)
+ a snake accepted 
+
+the name is 'Part2_Part15
+
+
+ the current block is 15
+ the sides are [0.85, 0.42, 0.64] 
+ the orientation is 0 0 1
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is z
+
+starting thread 0
+started testThreads thread 0 with threadHandle 00000000000004AC
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+Version = 4.6.0 NVIDIA 516.94
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+b3Printf: Selected demo: Physics Server
+starting thread 0
+started MotionThreads thread 0 with threadHandle 0000000000000830
+MotionThreadFunc thread started
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: expected a world element, continuing without it.
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 with handle 0000000000000830 exiting
+Thread TERMINATED
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 with handle 00000000000004AC exiting
+Thread TERMINATED
+[5, 0, 0, 0, 0, 0]
+the id is 
+ 1
+
+ the speeds and feeds are (0, 1, '-x', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, '-y', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, 'x', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, '-x', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+the name is 'Part0_Part1
+
+
+ the current block is 1
+ the sides are [0.35, 0.32, 0.35] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 2, '-x', 'y', -1, 0)
+ a snake accepted 
+
+the name is 'Part0_Part2
+
+
+ the current block is 2
+ the sides are [0.28, 0.61, 0.99] 
+ the orientation is 0 0 1
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -x
+
+the name is 'Part0_Part3
+
+
+ the current block is 3
+ the sides are [0.66, 0.44, 0.89] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 4, 'z', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 4, 'z', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 4, 'z', '-x', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 4, 'z', 'y', 0, 2)
+ a snake accepted 
+
+a location has been regjected
+the name is 'Part1_Part4
+
+
+ the current block is 4
+ the sides are [0.71, 0.69, 0.28] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 5, '-z', 'y', -1, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 5, '-z', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 5, '-z', '-x', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 5, '-z', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 5, '-z', 'y', 1, 3)
+ a snake accepted 
+
+a location has been regjected
+the name is 'Part3_Part5
+
+
+ the current block is 5
+ the sides are [0.93, 0.31, 0.56] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+the name is 'Part3_Part6
+
+
+ the current block is 6
+ the sides are [0.5, 0.79, 0.95] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 7, 'x', 'y', -1, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 7, 'x', 'y', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 7, 'x', '-x', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 7, 'x', 'y', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 7, 'x', 'y', 1, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 7, 'x', 'y', 3, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 7, 'x', 'y', 3, 5)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 7, 'z', 'y', -1, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 7, 'z', 'y', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 7, 'z', '-x', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 7, 'z', 'y', 0, 1)
+ a snake accepted 
+
+the name is 'Part1_Part7
+
+
+ the current block is 7
+ the sides are [0.61, 0.28, 0.6] 
+ the orientation is 0 0 1
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is z
+
+
+ the speeds and feeds are (0, 8, '-y', 'y', -1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 8, '-y', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 8, '-y', '-x', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 8, '-y', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 8, '-y', 'y', 1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 8, '-y', 'y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 8, '-y', 'y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 8, '-y', 'z', 1, 4)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 8, '-y', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 8, '-y', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 8, '-y', '-x', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 8, '-y', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 8, '-y', 'y', 1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 8, '-y', 'y', 3, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 8, '-y', 'y', 3, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 8, '-y', 'z', 1, 2)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 8, 'z', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 8, 'z', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 8, 'z', '-x', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 8, 'z', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 8, 'z', 'y', 1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 8, 'z', 'y', 3, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 8, 'z', 'y', 3, 2)
+ a snake accepted 
+
+the name is 'Part2_Part8
+
+
+ the current block is 8
+ the sides are [0.44, 0.68, 0.57] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is z
+
+
+ the speeds and feeds are (0, 9, '-y', 'y', -1, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 9, '-y', 'y', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 9, '-y', '-x', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 9, '-y', 'y', 0, 1)
+ a snake accepted 
+
+the name is 'Part1_Part9
+
+
+ the current block is 9
+ the sides are [0.69, 0.47, 0.69] 
+ the orientation is 0 1 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 10, '-z', 'y', -1, 0)
+ a snake accepted 
+
+the name is 'Part0_Part10
+
+
+ the current block is 10
+ the sides are [1.0, 0.98, 0.29] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 11, 'x', 'y', -1, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 11, 'x', 'y', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 11, 'x', '-x', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 11, 'x', 'y', 0, 1)
+ a snake accepted 
+
+the name is 'Part1_Part11
+
+
+ the current block is 11
+ the sides are [0.45, 0.63, 0.91] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is x
+
+
+ the speeds and feeds are (0, 12, '-x', 'y', -1, 11)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 12, '-x', 'y', 0, 11)
+ a snake accepted 
+
+the name is 'Part11_Part12
+
+
+ the current block is 12
+ the sides are [0.64, 0.46, 0.84] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -x
+
+
+ the speeds and feeds are (0, 13, '-z', 'y', -1, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 13, '-z', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 13, '-z', '-x', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 13, '-z', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 13, '-z', 'y', 1, 3)
+ a snake accepted 
+
+the name is 'Part3_Part13
+
+
+ the current block is 13
+ the sides are [1.0, 0.51, 0.69] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 14, '-z', 'y', -1, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 14, '-z', 'y', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 14, '-z', '-x', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 14, '-z', 'y', 0, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 14, '-z', 'y', 1, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 14, '-z', 'y', 3, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 14, '-z', 'y', 3, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 14, '-z', 'z', 1, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 14, '-z', 'z', 2, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (9, 14, '-z', '-y', 1, 5)
+ a snake accepted 
+
+the name is 'Part5_Part14
+
+
+ the current block is 14
+ the sides are [0.66, 0.46, 0.4] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 15, '-z', 'y', -1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 15, '-z', 'y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 15, '-z', '-x', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 15, '-z', 'y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 15, '-z', 'y', 1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 15, '-z', 'y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 15, '-z', 'y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 15, '-z', 'z', 1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 15, '-z', 'z', 2, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (9, 15, '-z', '-y', 1, 8)
+ a snake accepted 
+
+the name is 'Part8_Part15
+
+
+ the current block is 15
+ the sides are [0.62, 0.37, 0.79] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 16, '-y', 'y', -1, 6)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 16, '-y', 'y', 0, 6)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 16, '-y', '-x', 0, 6)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 16, '-y', 'y', 0, 6)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 16, '-y', 'y', 1, 6)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 16, '-y', 'y', 3, 6)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 16, '-y', 'y', 3, 6)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 16, '-y', 'z', 1, 6)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 16, '-y', 'z', 2, 6)
+ a snake accepted 
+
+the name is 'Part6_Part16
+
+
+ the current block is 16
+ the sides are [0.6, 0.53, 0.59] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 17, '-y', 'y', -1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 17, '-y', 'y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 17, '-y', '-x', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 17, '-y', 'y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 17, '-y', 'y', 1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 17, '-y', 'y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 17, '-y', 'y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 17, '-y', 'z', 1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 17, '-y', 'z', 2, 8)
+ a snake accepted 
+
+the name is 'Part8_Part17
+
+
+ the current block is 17
+ the sides are [0.51, 0.68, 0.5] 
+ the orientation is 1 0 0
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 18, 'x', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 18, 'x', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 18, 'x', '-x', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 18, 'x', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 18, 'x', 'y', 1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 18, 'x', 'y', 3, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 18, 'x', 'y', 3, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 18, 'x', 'z', 1, 2)
+ a snake accepted 
+
+the name is 'Part2_Part18
+
+
+ the current block is 18
+ the sides are [0.85, 0.37, 0.39] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is x
+
+
+ the speeds and feeds are (0, 19, '-y', 'y', -1, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 19, '-y', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 19, '-y', '-x', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 19, '-y', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 19, '-y', 'y', 1, 3)
+ a snake accepted 
+
+the name is 'Part3_Part19
+
+
+ the current block is 19
+ the sides are [0.5, 0.89, 0.36] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+starting thread 0
+started testThreads thread 0 with threadHandle 0000000000000540
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+Version = 4.6.0 NVIDIA 516.94
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+b3Printf: Selected demo: Physics Server
+starting thread 0
+started MotionThreads thread 0 with threadHandle 00000000000007F4
+MotionThreadFunc thread started
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: expected a world element, continuing without it.
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 with handle 00000000000007F4 exiting
+Thread TERMINATED
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 with handle 0000000000000540 exiting
+Thread TERMINATED
+[3, 4, 5, 0]
+the id is 
+ 2
+
+ the speeds and feeds are (0, 1, 'z', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, 'x', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, 'z', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, 'x', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, 'z', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, '-z', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 1, 'x', 'y', -1, 0)
+ a snake accepted 
+
+a location has been regjected
+the name is 'Part0_Part1
+
+
+ the current block is 1
+ the sides are [0.78, 0.65, 0.54] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 2, '-y', 'y', -1, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 2, '-y', 'y', 0, 1)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 2, '-y', 'y', -1, 0)
+ a snake accepted 
+
+the name is 'Part0_Part2
+
+
+ the current block is 2
+ the sides are [0.26, 0.62, 0.49] 
+ the orientation is 0 1 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 3, 'z', 'y', -1, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 3, 'z', 'y', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 3, 'z', '-y', 0, 1)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 3, 'z', 'y', -1, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 3, 'z', 'y', 0, 2)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 3, 'z', '-y', 0, 2)
+ a snake accepted 
+
+a location has been regjected
+the name is 'Part0_Part3
+
+
+ the current block is 3
+ the sides are [0.87, 0.32, 0.53] 
+ the orientation is 0 1 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+the name is 'Part1_Part4
+
+
+ the current block is 4
+ the sides are [0.43, 0.39, 0.46] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 5, '-y', 'y', -1, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 5, '-y', 'y', 0, 3)
+ a snake accepted 
+
+the name is 'Part3_Part5
+
+
+ the current block is 5
+ the sides are [0.54, 0.95, 0.79] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+the name is 'Part5_Part6
+
+
+ the current block is 6
+ the sides are [0.43, 0.85, 0.29] 
+ the orientation is 0 0 1
+ the color is ['Green', '     <color rgba="0.0 1.0 0.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 7, 'z', 'y', -1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 7, 'z', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 7, 'z', '-y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 7, 'z', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 7, 'z', 'y', 1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 7, 'z', '-y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 7, 'z', 'y', 5, 4)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 7, '-y', 'y', -1, 5)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 7, '-y', 'y', 0, 5)
+ a snake accepted 
+
+the name is 'Part5_Part7
+
+
+ the current block is 7
+ the sides are [0.98, 0.97, 0.9] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 8, '-y', 'y', -1, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 8, '-y', 'y', 0, 3)
+ a snake accepted 
+
+the name is 'Part3_Part8
+
+
+ the current block is 8
+ the sides are [0.64, 0.31, 0.97] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 9, '-y', 'y', -1, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 9, '-y', 'y', 0, 3)
+ a snake accepted 
+
+the name is 'Part3_Part9
+
+
+ the current block is 9
+ the sides are [0.4, 0.91, 0.43] 
+ the orientation is 0 1 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 10, '-x', 'y', -1, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 10, '-x', 'y', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 10, '-x', '-y', 0, 1)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 10, '-x', 'y', 0, 1)
+ a snake accepted 
+
+the name is 'Part1_Part10
+
+
+ the current block is 10
+ the sides are [0.97, 0.3, 0.81] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -x
+
+the name is 'Part4_Part11
+
+
+ the current block is 11
+ the sides are [0.95, 0.37, 0.7] 
+ the orientation is 0 1 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 12, '-z', 'y', -1, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 12, '-z', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 12, '-z', '-y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 12, '-z', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 12, '-z', 'y', 1, 3)
+ a snake accepted 
+
+the name is 'Part3_Part12
+
+
+ the current block is 12
+ the sides are [0.68, 0.96, 0.42] 
+ the orientation is 0 1 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 13, 'z', 'y', -1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 13, 'z', 'y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 13, 'z', '-y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 13, 'z', 'y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 13, 'z', 'y', 1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 13, 'z', '-y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 13, 'z', 'y', 5, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 13, 'z', '-y', 5, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 13, 'z', '-y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (9, 13, 'z', '-y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (10, 13, 'z', '-x', 1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (11, 13, 'z', 'y', 4, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (12, 13, 'z', '-z', 3, 8)
+ a snake accepted 
+
+a location has been regjected
+the name is 'Part12_Part13
+
+
+ the current block is 13
+ the sides are [0.33, 0.79, 0.46] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is y
+
+
+ the speeds and feeds are (0, 14, 'z', 'y', -1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 14, 'z', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 14, 'z', '-y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 14, 'z', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 14, 'z', 'y', 1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 14, 'z', '-y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 14, 'z', 'y', 5, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 14, 'z', '-y', 5, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 14, 'z', '-y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (9, 14, 'z', '-y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (10, 14, 'z', '-x', 1, 4)
+ a snake accepted 
+
+the name is 'Part4_Part14
+
+
+ the current block is 14
+ the sides are [0.68, 0.6, 0.51] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is z
+
+
+ the speeds and feeds are (0, 15, 'z', 'y', -1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 15, 'z', 'y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 15, 'z', '-y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 15, 'z', 'y', 0, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 15, 'z', 'y', 1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 15, 'z', '-y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 15, 'z', 'y', 5, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 15, 'z', '-y', 5, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 15, 'z', '-y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (9, 15, 'z', '-y', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (10, 15, 'z', '-x', 1, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (11, 15, 'z', 'y', 4, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (12, 15, 'z', '-z', 3, 8)
+ a snake accepted 
+
+
+ the speeds and feeds are (13, 15, 'z', 'y', 12, 8)
+ a snake accepted 
+
+the name is 'Part8_Part15
+
+
+ the current block is 15
+ the sides are [0.99, 0.83, 0.34] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is z
+
+
+ the speeds and feeds are (0, 16, '-x', 'y', -1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 16, '-x', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 16, '-x', '-y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 16, '-x', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 16, '-x', 'y', 1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 16, '-x', '-y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 16, '-x', 'y', 5, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 16, '-x', '-y', 5, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 16, '-x', '-y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (9, 16, '-x', '-y', 3, 4)
+ a snake accepted 
+
+the name is 'Part4_Part16
+
+
+ the current block is 16
+ the sides are [0.38, 0.49, 0.99] 
+ the orientation is 0 1 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -x
+
+
+ the speeds and feeds are (0, 17, '-y', 'y', -1, 14)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 17, '-y', 'y', 0, 14)
+ a snake accepted 
+
+the name is 'Part14_Part17
+
+
+ the current block is 17
+ the sides are [0.35, 0.74, 0.98] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+
+ the speeds and feeds are (0, 18, '-z', 'y', -1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 18, '-z', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 18, '-z', '-y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 18, '-z', 'y', 0, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 18, '-z', 'y', 1, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 18, '-z', '-y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 18, '-z', 'y', 5, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 18, '-z', '-y', 5, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 18, '-z', '-y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (9, 18, '-z', '-y', 3, 4)
+ a snake accepted 
+
+
+ the speeds and feeds are (10, 18, '-z', '-x', 1, 4)
+ a snake accepted 
+
+the name is 'Part4_Part18
+
+
+ the current block is 18
+ the sides are [0.63, 0.29, 0.62] 
+ the orientation is 1 0 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 19, '-z', 'y', -1, 0)
+ a snake accepted 
+
+the name is 'Part0_Part19
+
+
+ the current block is 19
+ the sides are [0.5, 0.38, 0.49] 
+ the orientation is 0 1 0
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 20, 'x', 'y', -1, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 20, 'x', 'y', 0, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 20, 'x', '-y', 0, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 20, 'x', 'y', 0, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 20, 'x', 'y', 1, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (5, 20, 'x', '-y', 3, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (6, 20, 'x', 'y', 5, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (7, 20, 'x', '-y', 5, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (8, 20, 'x', '-y', 3, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (9, 20, 'x', '-y', 3, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (10, 20, 'x', '-x', 1, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (11, 20, 'x', 'y', 4, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (12, 20, 'x', '-z', 3, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (13, 20, 'x', 'y', 12, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (14, 20, 'x', 'z', 4, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (15, 20, 'x', 'z', 8, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (16, 20, 'x', '-x', 4, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (17, 20, 'x', '-y', 14, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (18, 20, 'x', '-z', 4, 18)
+ a snake accepted 
+
+
+ the speeds and feeds are (19, 20, 'x', '-z', 0, 18)
+ a snake accepted 
+
+a location has been regjected
+
+ the speeds and feeds are (0, 20, '-z', 'y', -1, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 20, '-z', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (2, 20, '-z', '-y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (3, 20, '-z', 'y', 0, 3)
+ a snake accepted 
+
+
+ the speeds and feeds are (4, 20, '-z', 'y', 1, 3)
+ a snake accepted 
+
+the name is 'Part3_Part20
+
+
+ the current block is 20
+ the sides are [0.73, 0.54, 0.54] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -z
+
+
+ the speeds and feeds are (0, 21, '-y', 'y', -1, 20)
+ a snake accepted 
+
+
+ the speeds and feeds are (1, 21, '-y', 'y', 0, 20)
+ a snake accepted 
+
+the name is 'Part20_Part21
+
+
+ the current block is 21
+ the sides are [0.32, 0.72, 0.47] 
+ the orientation is 0 0 1
+ the color is ['Blue', '     <color rgba="0.0 0.5 1.0 1.0"/>']
+, the direction is -y
+
+starting thread 0
+started testThreads thread 0 with threadHandle 00000000000002F4
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+Version = 4.6.0 NVIDIA 516.94
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+b3Printf: Selected demo: Physics Server
+starting thread 0
+started MotionThreads thread 0 with threadHandle 000000000000081C
+MotionThreadFunc thread started
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: expected a world element, continuing without it.
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 with handle 000000000000081C exiting
+Thread TERMINATED
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 with handle 00000000000002F4 exiting
+Thread TERMINATED
+starting thread 0
+started testThreads thread 0 with threadHandle 0000000000000150
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+Version = 4.6.0 NVIDIA 516.94
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+b3Printf: Selected demo: Physics Server
+starting thread 0
+started MotionThreads thread 0 with threadHandle 0000000000000834
+MotionThreadFunc thread started
+b3Printf: b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+
+b3Printf: expected a world element, continuing without it.

@@ -24,7 +24,7 @@ class SNAKE_SIMILATION(SIMULATION):
           self.world = WORLD()
 
           random.seed(id)
-          num_parts = random.randint(5,30)
+          num_parts = random.randint(25,25)
           
           num_sensors = random.randint(1, max(num_parts-1,1))
           
@@ -43,3 +43,4 @@ class SNAKE_SIMILATION(SIMULATION):
      def Create_World(self):
           pyrosim.Start_SDF("world.sdf")
           pyrosim.End()
+

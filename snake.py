@@ -14,18 +14,29 @@ import rotateNmap as rNm
 green = ['Green','     <color rgba="0.0 1.0 0.0 1.0"/>']
 blue  = ['Blue','     <color rgba="0.0 0.5 1.0 1.0"/>']
 vector_dict = {'x': [1, 0, 0], '-x': [-1, 0, 0], 'y': [0, 1, 0], '-y': [0, -1, 0], 'z': [0, 0, 1], '-z': [0, 0, -1]}
+to_opposite = {'x': '-x', '-x':'x', 'y': '-y', '-y': 'y', 'z': '-z', '-z': 'z'}
+face_centers = {
+    'x': [1.0, 0.5, 0.5],    # positive x face
+    '-x': [0.0, 0.5, 0.5],    # negative x face
+    'y': [0.5, 1.0, 0.5],    # positive y face
+    '-y': [0.5, 0.0, 0.5],    # negative y face
+    'z': [0.5, 0.5, 1.0],    # positive z face
+    '-z': [0.5, 0.5, 0.0]     # negative z face
+}
 def validLoc(lst, block):
-     ret = True
+     ret = False
      for other in lst:
           if block.id != other.id:
-               if block.parentId != other.parentId and block.direction != other.direction:
+               if block.parentId == other.parentId and block.direction == other.direction:
                     
-                    print(f"\n the speeds and feeds are {other.id, block.id, block.direction, other.direction, other.parentId, block.parentId}\n a snake accepted \n")
-               else:
                     return False
+                    #print(f"\n the speeds and feeds are {other.id, block.id, block.direction, other.direction, other.parentId, block.parentId}\n a snake accepted \n")
+               else:
+                    pass
+
                
-     print("a location has been regjected")
-     return ret
+     print("a block has been allowed")
+     return True
 
 
 class block():
@@ -55,13 +66,13 @@ class block():
           if self.limbtype == "dorsal":
                self.Ax = self.parAx 
           
-          chooseAx = random.choice([[1,0,0], [0,1,0], [0,0,1]])
+          chooseAx = vector_dict[self.direction]# random.choice([[1,0,0], [0,1,0], [0,0,1]])
           self.jointAx =  " ".join(str(coord) for coord in chooseAx) 
      
      def dims(self):
-          length =random.randint(self.minSide,100)/100
-          width = random.randint(self.minSide,100)/100
-          height = random.randint(self.minSide,100)/100
+          length = 1#random.randint(self.minSide,100)/100
+          width = 1#random.randint(self.minSide,100)/100
+          height = 1#random.randint(self.minSide,100)/100
           self.lwh = [length,width,height]
 
 
@@ -84,6 +95,11 @@ class SNAKE(ROBOT):
           self.Create_Brain()
 
           ROBOT.__init__(self, id, False, False)
+          
+
+
+
+     
 
      def Create_Body(self):
           pyrosim.Start_URDF(f'body{self.myID}.urdf')
@@ -94,7 +110,9 @@ class SNAKE(ROBOT):
                color = blue
           random.seed(self.myID)
           
-          listofBlocks = [block(0, -1,vector_dict['y'], "dorsal", [0,1,0], self.isSensor[0])]      
+          listofBlocks = [block(0, -1,vector_dict['y'], "dorsal", [0,1,0], self.isSensor[0])]    
+          pos  = np.array(vector_dict[listofBlocks[0].direction])*np.array(listofBlocks[0].lwh) * .5 
+          print("the very first block is ", listofBlocks[0]) 
           pyrosim.Send_Cube(name="Part0", pos=[0,0,0] , size=listofBlocks[0].lwh, color=color)
       
        
@@ -102,82 +120,45 @@ class SNAKE(ROBOT):
      
           for i in range(1,self.numParts):
                parent = random.choice(list(range(0,len(listofBlocks))))
-               dir = random.choice(['x','y','z', '-x', '-y', '-z'])     
+               dir = random.choice(['x','y','z'])#, '-x', '-y', '-z'])        
                currbox = block(i, parent, vector_dict[dir], "dorsal", None, self.isSensor[i], dir)
-               while((validLoc(listofBlocks, currbox))):
+               while(not(validLoc(listofBlocks, currbox))):
                     parent = random.choice(list(range(0,len(listofBlocks))))
-                    dir = random.choice(['x','y','z', '-x', '-y', '-z'])     
+                    dir = random.choice(['x','y','z'])#, '-x', '-y', '-z'])     
                     currbox = block(i, parent, vector_dict[dir], "dorsal", None, self.isSensor[i], dir)
+
                listofBlocks.append(currbox)
 
 
                print(f"the name is '{currbox.parent}_Part{i}")
-               dirfact = 1
-               ortx =0
-               orty =0
-               ortz = 0
-
+               jointdir = np.array([0,0,0])
                if currbox.parentId == 0:
-                    if(currbox.direction == 'y'):
-                         orty = 1
-                         previousW = listofBlocks[parent].lwh[1]/2
-                         previousH = previousL = 0 #listofBlocks[i-1].lwh[2]/
-                    elif(currbox.direction == 'z'):
-                         ortz = 1
-                         previousW = previousL = 0#listofBlocks[i-1].lwh[1]/2
-                         previousH = listofBlocks[parent].lwh[2]/2
-                    elif(currbox.direction == 'x'):
-                         ortx = 1
-                         previousW = previousH = 0
-                         previousL = listofBlocks[parent].lwh[0]/2
-                    elif(currbox.direction == '-y'):
-                         orty = 1
-                         dirfact= -1
-                         previousW = -1*listofBlocks[parent].lwh[1]/2
-                         previousH = previousL = 0 #listofBlocks[i-1].lwh[2]/
-                    elif(currbox.direction == '-z'):
-                         ortz = 1
-                         dirfact= -1
-                         previousW = previousL = 0#listofBlocks[i-1].lwh[1]/2
-                         previousH = -1*listofBlocks[parent].lwh[2]/2
-                    elif(currbox.direction == '-x'):
-                         ortx = 1
-                         dirfact= -1
-                         previousW = previousH = 0
-                         previousL = -1*listofBlocks[parent].lwh[0]/2
-               else:
-                    if(currbox.direction == 'y'):
-                         orty = 1
-                         previousW = listofBlocks[parent].lwh[1]
-                         previousH = previousL = 0#listofBlocks[i-1].lwh[2]
-                    elif(currbox.direction == 'z'):
-                         ortz = 1
-                         previousW = 0#listofBlocks[i-1].lwh[1]/2
-                         previousH = listofBlocks[parent].lwh[2]
-                    elif(currbox.direction == 'x'):
-                         ortx = 1
-                         previousW = previousH = 0
-                         previousL = listofBlocks[parent].lwh[0]
-                    elif(currbox.direction == '-y'):
-                         orty = 1
-                         dirfact= -1
-                         previousW =  -1* listofBlocks[parent].lwh[1]
-                         previousH = previousL = 0#listofBlocks[i-1].lwh[2]
-                    elif(currbox.direction == '-z'):
-                         ortz = 1
-                         dirfact= -1
-                         previousW = 0#listofBlocks[i-1].lwh[1]/2
-                         previousH = -1* listofBlocks[parent].lwh[2]
-                    elif(currbox.direction == '-x'):
-                         ortx = 1
-                         dirfact= -1
-                         previousW = previousH = 0
-                         previousL = -1* listofBlocks[parent].lwh[0]
+                    prevdir = np.array(face_centers[listofBlocks[parent].direction])
+                    currdir = np.array(face_centers[currbox.direction])
+                    if prevdir.all() == currdir.all():
+                         prevdir = np.array(face_centers[to_opposite[listofBlocks[parent].direction]])
+                    jointdir = currdir-prevdir
+                    jointdir = np.array(listofBlocks[parent].lwh) * .5
+                    print("the thing that i want to see is", np.logical_not((np.array(vector_dict[listofBlocks[parent].direction])).astype(int)))
+                    pos  = np.array(vector_dict[currbox.direction])*np.array(currbox.lwh) *.5
                     
-               pyrosim.Send_Joint(name = f'{currbox.parent}_Part{i}' , parent= currbox.parent , child = f'Part{i}' , type = "revolute", position = ([previousL,previousW,previousH]), jointAxis = currbox.jointAx)
-               pyrosim.Send_Cube(name=f'Part{i}', pos= [ortx*dirfact*currbox.lwh[0]/2,orty*dirfact* currbox.lwh[1]/2,ortz*dirfact* currbox.lwh[2]/2] , size= currbox.lwh, color=currbox.color) 
+               else:
+              
+                    prevdir = np.array(face_centers[listofBlocks[parent].direction])
+                    currdir = np.array(face_centers[currbox.direction])
+                    if prevdir.all() == currdir.all():
+                         prevdir = np.array(face_centers[to_opposite[listofBlocks[parent].direction]])
+                    jointdir = currdir-prevdir
+                    jointdir = jointdir *  currbox.lwh
+                    pos  = np.array(vector_dict[currbox.direction])*np.array(currbox.lwh) * .5
+
+
+               print(pos)
+               pyrosim.Send_Joint(name = f'{currbox.parent}_Part{i}' , parent= currbox.parent , child = f'Part{i}' , type = "revolute", position = (jointdir), jointAxis = currbox.jointAx)
+               pyrosim.Send_Cube(name=f'Part{i}', pos= pos , size= currbox.lwh, color=currbox.color) 
                #previous = [f'Part{i}', currbox.jointAx, width]
                print(currbox)
+               print("\n the joint location is ", jointdir)
 
                
 

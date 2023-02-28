@@ -19,6 +19,13 @@ class RANDOM_GEN:
                
           os.system("del body*.urdf")
           os.system("del brain*.urdf")
+     
+     def Wait_For_Simulation_To_End(self):
+          while not os.path.exists(f'fitness{self.myID}.txt'):
+               time.sleep(0.001)
+          f = open(f'fitness{self.myID}.txt', "r")
+          self.fitness = float(f.readlines()[0])
+          os.system(f'del fitness{self.myID}.txt')
           
 
           
