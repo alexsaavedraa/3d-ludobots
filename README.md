@@ -3,7 +3,7 @@
 
 generates shambling almagamations using this code. run using snakes.bat evolve using search.bat
 
-THIS IS BASED OFF OF WWW.reddit.com/R/LUDOBOTS. LARGE PORTIONS OF THIS CODEBASE ARE DIRECTLY TAKEN FROM THE SUBREDDIT. 
+THIS IS BASED OFF OF WWW.reddit.com/R/LUDOBOTS which uses among other things, PYROSIM! LARGE PORTIONS OF THIS CODEBASE ARE DIRECTLY TAKEN FROM THE SUBREDDIT. 
 
 This shows the fitness plotted against the generation (x axis)
 ![image](https://user-images.githubusercontent.com/114758213/221760224-70254ca9-540f-41dc-ab60-a7c50e5db25f.png)
